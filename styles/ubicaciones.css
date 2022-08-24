@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster';
+}
+
+body{
+    background-color: #2a9d8f;
+    font-family: sans-serif;
+    padding: 90px 20px 0px;
+}
+
+.header{
+    background-color: #a4c3b2;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    height: 50px;
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    background-color: #cce3de; 
+    transition: 0.5s;
+}
+
+.navbar-link{
+padding: 1px 3px;
+}
+
+.navbar-menu{
+    display: flex;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.navbar-item{
+    font-size: 18px;
+    margin: 0 5px;
+    line-height: 10px;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: semibold;
+    color: #444;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: 5rem;
+    transition: all ease-in;
+    cursor: pointer;
+    box-shadow: 5rem 5rem 1rem #ccc,
+                -5rem -5rem 1rem #fff
+}
+
+.navbar-item{
+    box-shadow: 5rem 5rem 1rem #fff,
+                -5rem -5rem 1rem #ccc
+}
+.navbar-item{
+box-shadow: inset 2rem 2rem 5rem #fff,
+            inset -2rem -2rem 5rem #ccc
+}
+
+h1{
+    background: #ccc;
+    background: radial-gradient(#145C9E, #D62246, #212922);
+    font-family: system-ui;
+    font-size: 60px;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+    margin-bottom: 10px;
+    background: #ccc;
+    background: radial-gradient(#023e8a, #d62828, #000000);
+    font-family: system-ui;
+    font-size: 25px;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    height: 50px;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    background-color: #cce3de; 
+    transition: 0.5s;
+}
+
+.footer-link{
+    padding: 1px 3px;
+}
+
+.footer-item{
+        font-size: 18px;
+        margin: 0 5px;
+        line-height: 10px;
+        text-transform: uppercase;
+        background: transparent;
+        font-weight: semibold;
+        color: #444;
+        padding: 1rem 1.5rem;
+        border: 2px solid #eee;
+        border-radius: 5rem;
+        transition: all ease-in;
+        cursor: pointer;
+        box-shadow: 5rem 5rem 1rem #ccc,
+                    -5rem -5rem 1rem #fff
+}
+    
+.footer-item{
+        box-shadow: 5rem 5rem 1rem #fff,
+                    -5rem -5rem 1rem #ccc
+}
+.footer-item{
+    box-shadow: inset 2rem 2rem 5rem #fff,
+                inset -2rem -2rem 5rem #ccc
+}
+
+.numero{
+    font-size: 16px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #22333b;
+}
