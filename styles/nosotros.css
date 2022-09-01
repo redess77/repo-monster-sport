@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #2a9d8f;
+    background: rgb(2,0,36);
+    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(18,110,235,0.9023984593837535) 35%, rgba(0,212,255,1) 100%);
     font-family: sans-serif;
     padding: 90px 20px 0px;
 }
@@ -148,5 +149,70 @@ h1{
     font-size: 16px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #22333b;
+    color: white;
+}
+
+.contenedor{
+width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+
+    grid-template-areas: "nosotros nosotros nosotros"
+                        "imagenes imagenes imagenes"
+                        "footer-total footer-total footer-total";
+}
+
+.contenedor > div,
+.contenedor .nosotros,
+.contenedor .imagenes,
+.contenedor .footer-total {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor .nosotros {
+    text-align: center;
+    grid-area: nosotros;
+}
+
+.contenedor .imagenes {
+    text-align: center;
+    grid-area: imagenes;
+}
+
+.contenedor .footer-total {
+    text-align: center;
+    grid-area: footer-total;
+}
+
+@media (max-width: 590px) {
+    .contenedor {
+        grid-template-areas: 
+                            "nosotros nosotros nosotros"
+                            "imagenes imagenes imagenes"
+                            "footer-total footer-total footer-total";
+    }
+}
+
+@media (max-width: 780px) {
+    .contenedor {
+        grid-template-areas: 
+                            "nosotros nosotros nosotros"
+                            "imagenes imagenes imagenes"
+                            "footer-total footer-total footer-total";
+    }
+}
+
+@media (max-width: 1200px) {
+    .contenedor {
+        grid-template-areas: 
+                            "nosotros nosotros nosotros"
+                            "imagenes imagenes imagenes"
+                            "footer-total footer-total footer-total";
+    }
 }

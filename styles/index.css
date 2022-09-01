@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #2a9d8f;
+    background: rgb(2,0,36);
+    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(18,110,235,0.9023984593837535) 35%, rgba(0,212,255,1) 100%);
     font-family: sans-serif;
     padding: 90px 20px 0px;
 }
@@ -152,7 +153,7 @@ p{
     font-size: 16px;
     font-style: initial;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #22333b;
+    color: white;
 }
 
 .nosotros-link{
@@ -202,6 +203,7 @@ p{
     color: #ccc;
     text-align: center;
     grid-area: nosotros;
+    border-radius: 10px;
 }
 
 .contenedor .tienda-online {
@@ -209,6 +211,7 @@ p{
     color: #ccc;
     text-align: center;
     grid-area: tienda-online;
+    border-radius: 10px;
 }
 
 @media (max-width: 590px) {
@@ -217,6 +220,23 @@ p{
                             "nosotros nosotros nosotros"
                             "tienda-online tienda-online tienda-online"
                             "footer footer footer";
-  
 }
+}
+
+@media (max-width: 780px) {
+    .contenedor {
+        grid-template-areas: "inicio inicio inicio"
+                            "nosotros nosotros nosotros"
+                            "tienda-online tienda-online tienda-online"
+                            "footer footer footer";
+    }
+}
+
+    @media (max-width: 1200px) {
+        .contenedor {
+            grid-template-areas: "inicio inicio inicio"
+                                "nosotros nosotros nosotros"
+                                "tienda-online tienda-online tienda-online"
+                                "footer footer footer";
+    }
 }
