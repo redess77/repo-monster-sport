@@ -85,15 +85,64 @@ h1{
     text-align: center;
 }
 
+.nosotros{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 400px;
+    width: 400px;
+}
+
+.imagen-nosotros img{
+    width: 400px;
+    height: 220px;
+    border-radius: 4px;
+}
+
+.imagen-tienda img{
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+}
+
 .subtitulo{
     margin-bottom: 10px;
     background: #ccc;
     background: radial-gradient(#023e8a, #d62828, #000000);
     font-family: system-ui;
-    font-size: 25px;
+    font-size: 30px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    animation-name: cambiar-tamaño;
+    animation-duration: 1.5s;
 }
+
+@keyframes cambiar-tamaño{
+    0%{
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleY(1.7);
+    }
+    60%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(1.6);
+    }
+}
+
+.tienda-online{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 400px;
+    width: 550px;
+}
+
 
 p{
     font-family: Roboto,'Helvetica Neue';
@@ -199,7 +248,7 @@ p{
 }
 
 .contenedor .nosotros {
-    background: #457b9d;
+    background-color: rgba(0, 0, 0, 0.1);
     color: #ccc;
     text-align: center;
     grid-area: nosotros;
@@ -207,7 +256,7 @@ p{
 }
 
 .contenedor .tienda-online {
-    background: #588157;
+    background-color: rgba(0, 0, 0, 0.1);
     color: #ccc;
     text-align: center;
     grid-area: tienda-online;

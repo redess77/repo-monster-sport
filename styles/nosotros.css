@@ -86,6 +86,16 @@ h1{
     text-align: center;
 }
 
+.nosotros{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 350px;
+    width: 250px;
+}
+
 .subtitulo{
     margin-bottom: 10px;
     background: #ccc;
