@@ -12,7 +12,6 @@ body{
 }
 
 .header{
-    background-color: #a4c3b2;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -20,6 +19,10 @@ body{
     left 0;
 }
 
+
+.header h1{
+    font-size: 60px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -72,11 +75,15 @@ body{
             inset -2rem -2rem 5rem #ccc
 }
 
+.icono{
+    height: 50px;
+}
+
 h1{
     background: #ccc;
     background: radial-gradient(#145C9E, #D62246, #212922);
     font-family: system-ui;
-    font-size: 60px;
+    filter: drop-shadow(3px 3px 2px #14213d);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -112,11 +119,12 @@ h1{
     background: #ccc;
     background: radial-gradient(#023e8a, #d62828, #000000);
     font-family: system-ui;
-    font-size: 30px;
+    font-size: 40px;
+    filter: drop-shadow(3px 3px 2px #14213d);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation-name: cambiar-tamaño;
-    animation-duration: 1.5s;
+    animation-duration: 1.4s;
 }
 
 @keyframes cambiar-tamaño{
