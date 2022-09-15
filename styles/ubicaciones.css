@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lobster';
 }
 
-body{
-    background: rgb(2,0,36);
-    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(18,110,235,0.9023984593837535) 35%, rgba(0,212,255,1) 100%);
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(55deg, rgba(2, 0, 36, 1) 0%, rgba(18, 110, 235, 0.9023984593837535) 35%, rgba(0, 212, 255, 1) 100%);
     font-family: sans-serif;
     padding: 90px 20px 0px;
 }
 
-.header{
+.header {
     height: 80px;
     position: fixed;
     width: 100%;
@@ -19,33 +19,33 @@ body{
     left 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
     height: 50px;
 }
 
-.navbar-link{
+.navbar-link {
     text-decoration: none;
 }
 
 .navbar-link:hover {
-    background-color: #cce3de; 
+    background-color: #cce3de;
     transition: 0.5s;
 }
 
-.navbar-link{
-padding: 1px 3px;
+.navbar-link {
+    padding: 1px 3px;
 }
 
-.navbar-menu{
+.navbar-menu {
     display: flex;
     margin-right: 25px;
     list-style: none;
 }
 
-.navbar-item{
+.navbar-item {
     font-size: 18px;
     margin: 0 5px;
     line-height: 10px;
@@ -59,19 +59,20 @@ padding: 1px 3px;
     transition: all ease-in;
     cursor: pointer;
     box-shadow: 5rem 5rem 1rem #ccc,
-                -5rem -5rem 1rem #fff
+        -5rem -5rem 1rem #fff
 }
 
-.navbar-item{
+.navbar-item {
     box-shadow: 5rem 5rem 1rem #fff,
-                -5rem -5rem 1rem #ccc
-}
-.navbar-item{
-box-shadow: inset 2rem 2rem 5rem #fff,
-            inset -2rem -2rem 5rem #ccc
+        -5rem -5rem 1rem #ccc
 }
 
-h1{
+.navbar-item {
+    box-shadow: inset 2rem 2rem 5rem #fff,
+        inset -2rem -2rem 5rem #ccc
+}
+
+h1 {
     background: #ccc;
     background: radial-gradient(#145C9E, #D62246, #212922);
     font-family: system-ui;
@@ -81,11 +82,15 @@ h1{
     -webkit-background-clip: text;
 }
 
-.titulo{
+.header h1 {
+    font-size: 60px;
+}
+
+.titulo {
     text-align: center;
 }
 
-.subtitulo{
+.subtitulo {
     margin-bottom: 10px;
     background: #ccc;
     background: radial-gradient(#023e8a, #d62828, #000000);
@@ -96,7 +101,7 @@ h1{
     -webkit-background-clip: text;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
@@ -105,46 +110,47 @@ h1{
     list-style: none;
 }
 
-.footer-link{
+.footer-link {
     text-decoration: none;
 }
 
-.footer-link:hover{
-    background-color: #cce3de; 
+.footer-link:hover {
+    background-color: #cce3de;
     transition: 0.5s;
 }
 
-.footer-link{
+.footer-link {
     padding: 1px 3px;
 }
 
-.footer-item{
-        font-size: 18px;
-        margin: 0 5px;
-        line-height: 10px;
-        text-transform: uppercase;
-        background: transparent;
-        font-weight: semibold;
-        color: #444;
-        padding: 1rem 1.5rem;
-        border: 2px solid #eee;
-        border-radius: 5rem;
-        transition: all ease-in;
-        cursor: pointer;
-        box-shadow: 5rem 5rem 1rem #ccc,
-                    -5rem -5rem 1rem #fff
-}
-    
-.footer-item{
-        box-shadow: 5rem 5rem 1rem #fff,
-                    -5rem -5rem 1rem #ccc
-}
-.footer-item{
-    box-shadow: inset 2rem 2rem 5rem #fff,
-                inset -2rem -2rem 5rem #ccc
+.footer-item {
+    font-size: 18px;
+    margin: 0 5px;
+    line-height: 10px;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: semibold;
+    color: #444;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: 5rem;
+    transition: all ease-in;
+    cursor: pointer;
+    box-shadow: 5rem 5rem 1rem #ccc,
+        -5rem -5rem 1rem #fff
 }
 
-.numero{
+.footer-item {
+    box-shadow: 5rem 5rem 1rem #fff,
+        -5rem -5rem 1rem #ccc
+}
+
+.footer-item {
+    box-shadow: inset 2rem 2rem 5rem #fff,
+        inset -2rem -2rem 5rem #ccc
+}
+
+.numero {
     font-size: 16px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
