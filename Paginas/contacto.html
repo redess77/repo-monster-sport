@@ -48,22 +48,48 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
     </header>
     </nav>
 
-    <section>
-        <h2 class="subtitulo">Contacto</h2>
-        <input type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
-        <input type="text" name="nombres" id="apellidos" placeholder="Ingrese su apellido">
-        <input type="email" name="nombres" id="correo" placeholder="Ingrese su correo">
-        <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
-        <input type="submit" value="Registrar">
-        <p><a href="#">¿Ya tienes cuenta?</a></p>
-    </section>
+    <form>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+                <input type="text" name="nombres" id="nombres" placeholder="Nombre">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Apellido</label>
+            <div class="col-sm-10">
+                <input type="text" name="nombres" id="apellidos" placeholder="Apellido">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Correo</label>
+            <div class="col-sm-10">
+                <input type="email" name="nombres" id="correo" placeholder="correo">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2">Estoy de acuerdo con los terminos y condiciones</div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Acepto
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Registrar</button>
+            </div>
+        </div>
+    </form>
     <ul class="footer">
         <p class="numero">Numero Contacto: +15999999999</p>
         <li class="footer-item"><a href="../index.html" class="footer-link">Inicio</a></li>
